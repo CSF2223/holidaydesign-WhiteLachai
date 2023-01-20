@@ -1,11 +1,11 @@
 /*
 Color Palette
-background color: #3C4048
+background color: #C9182B
 primary: #512C73
 secondary: #361356
 tertiary: #6F4D8F
 accent: #9277AC
-niceBlue: #00ABB3
+niceGreen: #44C662
 white: #EAEAEA
 black: #000  
 */
@@ -20,7 +20,7 @@ body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    background-color: #3C4048;
+    background-color: #C9182B;
     color: #EAEAEA;
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 .heroName {
-    color: #00ABB3;
+    color: #44C662;
     font-size: 2.5rem;
     text-transform: uppercase;
 }
@@ -69,20 +69,20 @@ body {
 }
 
 .button {
-    background-color: #00ABB3;
+    background-color: #44C662;
     padding: 1rem;
     border: 1px solid #9277AC;
     border-radius: 25px;
     font-size: 0.85rem;
     font-weight: 700;
-    color: #3C4048;
+    color: #C9182B;
     text-decoration: none;
     box-shadow: 8px 8px 4px #000;
 }
 
 .button:hover {
     background-color: #A66CFF;
-    color: #3C4048;
+    color: #C9182B;
     transform: scale(1.5);
     /* (150% zoom - Note: if the zoom is too large, it will go
     outside of the viewport ) */
@@ -97,7 +97,7 @@ body {
 
 .projectCard {
     background-color: #EAEAEA;
-    color: #3C4048;
+    color: #C9182B;
     margin: 4rem 3rem;
     padding: 0.5rem 2rem;
     text-align: center;
@@ -147,7 +147,7 @@ body {
 
 footer {
     text-align: center;
-    color: #00ABB3;
+    color: #44C662;
     margin: 10rem 0;
     border-top: 1px solid #9277AC;
 }
@@ -156,7 +156,7 @@ footer {
     margin: 1rem;
     padding: 1rem;
     font-size: 1rem;
-    color: #00ABB3;
+    color: #44C662;
     display: block;
 }
 
